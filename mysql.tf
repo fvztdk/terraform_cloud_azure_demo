@@ -19,7 +19,7 @@ resource "azurerm_mysql_server" "example" {
   administrator_login_password = random_password.password.result
 
   sku_name   = "B_Gen5_1"
-  storage_mb = 5120
+  storage_mb = 6120
   version    = "5.7"
 
   auto_grow_enabled                 = true
